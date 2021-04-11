@@ -121,10 +121,17 @@ namespace Shipley_Painters_program
 
 
             int cost;
+            int undercoat;
             bool status = int.TryParse(ISBN.Text, out result);
             if (status)
             {
                 cost = area * total;
+                if cb1.Content;
+                    total += 0.50
+                    cost = area * total;
+                else:
+                        pass
+
                 text += "The total cost of the paint is " + cost;
             }
             else
