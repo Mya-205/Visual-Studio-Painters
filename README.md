@@ -7,7 +7,7 @@ Then, the users can input the 4 different lengths of the walls in the textbox, a
 
 Undercoat would cost an extra £0.50 per square metre, and Luxury paint would cost £1.75 per metre, Standard would cot £1.00 per metre and Eonomy would cost £0.45 per metre.
 
-The total cost is worked out by using he total area * the chosen paint, and the undercost if selected
+The total cost is worked out by using the total area * the chosen paint, and the undercost if selected
 
 
 ![image](https://user-images.githubusercontent.com/74416094/114322132-75085c00-9b16-11eb-9bf9-f17d77040b4d.png)
