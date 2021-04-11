@@ -1,0 +1,146 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace Shipley_Painters_program
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+        }
+
+        private void rb1_Checked(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+            
+        }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            Console.WriteLine(cb1.Content);
+            Console.WriteLine(rb1.IsChecked);
+            Console.WriteLine(rb3.IsChecked);
+            Console.WriteLine(rb2.IsChecked);
+
+            int total_Length;
+            total_Length = Length1 + Length2 + Length3 + Length4;
+            int area;
+            area = total_Length * Height
+
+
+
+            int total;
+            string text = "Following options selected \n";
+            if ((bool)rb1.IsChecked)
+            {
+                text = text + "Checkbox is selected \n";
+                total = (int)(total + 0.45);
+
+            }
+            else
+            {
+                text += "Checkbox is not selected \n";
+            }
+
+
+
+            if ((bool)rb2.IsChecked)
+            {
+                text = text + "Checkbox is selected \n";
+                total = (int)(total + 1.00);
+
+            }
+            else
+            {
+                text += "Checkbox is not selected \n";
+            }
+
+
+
+            if ((bool)rb3.IsChecked)
+            {
+                text = text + "Checkbox is selected \n";
+                total = (int)(total + 1.75);
+            }
+            else
+            {
+                text += "Checkbox is not selected \n";
+            }
+
+
+
+
+            int isbn;
+            bool status = int.TryParse(ISBN.Text, out result);
+            if (status)
+            {
+                isbn = int(isbn);
+                isbn = isbn / 10;
+                isbn = isbn % 10;
+            }
+
+            else
+            {
+                text += "Input is invalid\n - Please input a number ";
+
+            }
+
+
+
+
+            int cost;
+            bool status = int.TryParse(ISBN.Text, out result);
+            if (status)
+            {
+                cost = area * total;
+                text += "The total cost of the paint is " + cost;
+            }
+            else
+            {
+                text += "Input is invalid\n - Please try again ";
+
+            }
+
+
+
+            Label_info.Content = text;
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+    }
