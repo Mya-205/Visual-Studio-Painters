@@ -10,5 +10,6 @@ Undercoat would cost an extra £0.50 per square metre, and Luxury paint would co
 The total cost is worked out by using he total area * the chosen paint, and the undercost if selected
 
 
+![image](https://user-images.githubusercontent.com/74416094/114322114-6621a980-9b16-11eb-9d6e-09df94dbb350.png)
 
 
