@@ -55,9 +55,13 @@ namespace Shipley_Painters_program
             Console.WriteLine(rb2.IsChecked);
 
             int total_Length;
-            total_Length = Length1 + Length2 + Length3 + Length4;
+            total_Length = Length1
+                + Length2
+                + Length3
+                + Length4;
             int area;
-            area = total_Length * Height
+            area = total_Length
+                * Height;
 
 
 
